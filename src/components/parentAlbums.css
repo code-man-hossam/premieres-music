@@ -1,0 +1,75 @@
+.parent-album {
+  width: 82%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 1.3fr;
+}
+
+.recently--added {
+  margin-top: 7rem;
+}
+.re--uploads {
+  margin-top: 2rem;
+}
+.parent-album .section-one {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.section-one .section--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.section--title h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.section--title p {
+  font-size: 13px;
+  color: #e72f2f;
+  cursor: pointer;
+}
+
+.section-one .albums--list {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: auto;
+}
+
+.albums--list .albums {
+  width: 80rem;
+  display: flex;
+  height: 10rem;
+}
+
+.albums--list .album {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.albums .album .cover {
+  width: 7rem;
+  height: 7rem;
+}
+
+.album .cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.album .artist {
+  color: #e72f2f;
+  margin-left: 0;
+}

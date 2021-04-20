@@ -1,0 +1,71 @@
+.setting {
+  width: 82%;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid #ccc;
+}
+
+.setting-button button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 0.2rem;
+}
+
+.setting-button svg {
+  font-size: 1.5rem;
+}
+.links {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links p {
+  position: absolute;
+  padding-top: 0.2rem;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 600;
+  transition: 2s;
+}
+
+.links p.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.links p span {
+  font-weight: 700;
+  color: #db7070;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icons button {
+  border: none;
+  padding: 0.3rem;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  background-color: transparent;
+}
+
+.icons button:hover {
+  border-bottom: 1px solid #000;
+}
+
+.icons svg {
+  font-size: 1.2rem;
+}

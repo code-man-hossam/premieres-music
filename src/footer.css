@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer--col {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer--col img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.footer--col p {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.footer--col ul {
+  list-style: none;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer--col ul li {
+  font-size: 13px;
+  cursor: pointer;
+}

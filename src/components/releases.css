@@ -1,0 +1,154 @@
+.release {
+  width: 63rem;
+  height: 28rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 1.3fr;
+  grid-gap: 0.5rem;
+  overflow: hidden;
+}
+
+.new-release {
+  padding: 0.5rem;
+  overflow-x: scroll;
+}
+
+.release--costum {
+  border-top: 1px solid #ccc;
+  height: 20rem;
+  margin-top: 2rem;
+}
+
+.new-release .album-container {
+  width: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.new-release .album {
+  width: 8rem;
+  height: 10rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.album .cover {
+  width: 8rem;
+  height: 8rem;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.album p {
+  margin-top: 0.3rem;
+  font-size: 13px;
+}
+
+.album-container .album .artist {
+  font-size: 13px;
+  color: #507783;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.chat .title {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.title p {
+  color: #d41616;
+  font-size: 13px;
+}
+
+.chat .chat-msg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-msg .user {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.user .user-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-info p {
+  font-size: 10px;
+}
+
+.send-msg {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.send-msg .profile {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-msg button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.chat-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-form .name-field {
+  width: 100%;
+  display: flex;
+}
+
+.name-field input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.name-field button {
+  color: #ccc;
+}
