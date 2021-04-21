@@ -85,7 +85,7 @@
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -112,6 +112,7 @@ h1 {
 
 .popular {
   height: auto;
+  margin-bottom: 2rem;
 }
 
 .popular .popular-list {
@@ -144,4 +145,46 @@ h1 {
 .album .artist {
   color: #296b51;
   margin-left: 0.8rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .songs--links {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.7rem;
+  }
+  .songs--links .songs-section {
+    margin-top: 1rem;
+  }
+  .header h1 {
+    font-size: 1.2rem;
+  }
+  .header p {
+    font-size: 10px;
+  }
+  .songs-list .songs-container {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .songs-container .song {
+    width: 12rem;
+    height: 4rem;
+    margin: 0.5rem;
+  }
+
+  .song .cover {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+  }
+  .artist-title p {
+    font-size: 11px;
+  }
+
+  .list-links li {
+    font-size: 12px;
+  }
 }

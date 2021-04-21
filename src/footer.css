@@ -34,3 +34,29 @@
   font-size: 13px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 700px) {
+  .footer--col {
+    padding: 5px;
+  }
+  .footer--col img {
+    width: 60px;
+  }
+  .footer--col p {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+  .footer--col ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+  }
+
+  .footer--col ul li {
+    font-size: 10px;
+    cursor: pointer;
+  }
+}

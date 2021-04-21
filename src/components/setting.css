@@ -13,10 +13,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: transparent;
   padding-top: 0.2rem;
 }
 
-.setting-button svg {
+svg {
   font-size: 1.5rem;
 }
 .links {
@@ -66,6 +67,22 @@
   border-bottom: 1px solid #000;
 }
 
-.icons svg {
-  font-size: 1.2rem;
+@media only screen and (max-width: 700px) {
+  .setting {
+    width: 100%;
+    padding: 0px 0.5rem;
+  }
+  .setting-button button {
+    padding-top: 0.4rem;
+  }
+  svg {
+    font-size: 1rem;
+  }
+  .links p {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .links p span {
+    font-weight: 500;
+  }
 }

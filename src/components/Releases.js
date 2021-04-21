@@ -258,7 +258,9 @@ const Releases = (props) => {
                   <img src={cover} alt='' />
                 </div>
                 <p>{name}</p>
-                <p className='artist'>{artist}</p>
+                <p className='artist'>
+                  {artist.length > 15 ? artist.slice(0, 15) + '...' : artist}
+                </p>
               </div>
             )
           })}

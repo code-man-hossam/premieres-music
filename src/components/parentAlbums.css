@@ -28,7 +28,7 @@
 }
 
 .section--title h1 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -72,4 +72,28 @@
 .album .artist {
   color: #e72f2f;
   margin-left: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .parent-album {
+    width: 100%;
+  }
+  .section--title p {
+    font-size: 10px;
+  }
+  .albums--list .albums {
+    width: 50rem;
+  }
+  .albums--list .album {
+    width: 5rem;
+  }
+  .albums .album .cover {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .album .artist {
+    color: #e72f2f;
+    margin-left: 0;
+  }
 }
